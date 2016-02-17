@@ -1,6 +1,6 @@
 {
     "name": "publicfunction/you-tube",
-    "description": "Package for Syncing Playlists, Playlist Thumnails, Videos and Video Thumbnails, directly from your own you tube channel.",
+    "description": "Package for Syncing Playlists, Playlist Thumbnails, Videos and Video Thumbnails, directly from your own you tube channel.",
     "license": "MIT",
     "authors": [
         {
