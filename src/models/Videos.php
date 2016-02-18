@@ -15,4 +15,12 @@ class Videos extends Model {
         return $this->hasMany('PublicFunction\YouTube\Models\VideoThumbnails');
     }
 
+    public function getThumbnail($size) {
+        return $this->thumbnails()->where('size', $size)->first();
+    }
+
+    public function getThumbnailUrl($size) {
+        return $this->getThumbnail($size)->url;
+    }
+
 }

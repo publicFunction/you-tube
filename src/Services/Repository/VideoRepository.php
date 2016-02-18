@@ -18,11 +18,14 @@ class VideoRepository {
     }
 
     public function getVideosByPlaylistId($playlist_id) {
-        return Videos::where('playlist_id', $playlist_id)->get();
+        return Videos::where('playlist_id', $playlist_id)
+            ->with('thumbnails')
+            ->orderBy('position')
+            ->get();
     }
 
     public function getVideoByVideoId($id) {
-        return Videos::where('video_hash_id', $id)->first();
+        return Videos::where('video_id', $id)->first();
     }
 
     public function create($data, $playlist_pk) {
