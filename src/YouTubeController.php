@@ -25,7 +25,7 @@ class YouTubeController extends Controller {
         $config_yt = $config['youtube'];
         $api = $config_yt['api'];
 
-        $yt = new YouTubeClient($api);
+        $yt = new YouTube($api);
         $this->client = $yt->client();
         $this->_playlist_repository = $playlistRepository;
         $this->_playlist_thumb_repository = $playlistThumbnailsRepsoitory;
