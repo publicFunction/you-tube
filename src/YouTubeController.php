@@ -4,7 +4,7 @@ namespace PublicFunction\YouTube;
 
 
 use Illuminate\Routing\Controller as Controller;
-use PublicFunction\YouTube\Lib\YouTubeClient;
+use PublicFunction\YouTube\Lib\YouTube;
 use PublicFunction\YouTube\Services\Repository\PlaylistRepository;
 use PublicFunction\YouTube\Services\Repository\PlaylistThumbnailsRepository;
 use PublicFunction\YouTube\Services\Repository\VideoRepository;
