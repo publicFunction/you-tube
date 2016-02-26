@@ -5,8 +5,8 @@ return array(
     'api' => array(
         'url' => 'https://www.googleapis.com/youtube/v3/',
         'key' => array(
-            'browser' => "AIzaSyA8WSCvmR8IkBk-wyiUmY_zqi4qTfCuDrs",
-            'server' => "AIzaSyDxk5yTYng29cRKRKCGwvlkIHbJMmbocjY",
+            'browser' => "KEY1",
+            'server' => "KEY2",
         ),
         'args' => array(
             'channelId' => "UCRMokxzufyesqkXCL8IQxMA",
