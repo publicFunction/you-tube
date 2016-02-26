@@ -2,7 +2,7 @@
 
 namespace PublicFunction\YouTube\Lib;
 
-class YouTubeClient {
+class YouTube {
 
     private $key;
     private $secret;
