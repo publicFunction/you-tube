@@ -1,4 +1,4 @@
-# you-tube
+# You-Tube-Laravel
 Laravel You Tube Package
 
 This is an early development package, but will sync your playlists and videos from the You Tube API v3.
