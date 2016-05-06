@@ -25,7 +25,7 @@ class VideoRepository {
     }
 
     public function getVideoByVideoId($id) {
-        return Videos::where('video_id', $id)->first();
+        return Videos::where('video_hash_id', $id)->first();
     }
 
     public function create($data, $playlist_pk) {
